@@ -4,7 +4,8 @@
   "description": "",
   "main": "notes.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "author": "vishal",
   "license": "ISC",
@@ -12,5 +13,8 @@
     "chalk": "^4.1.2",
     "validator": "^13.11.0",
     "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
